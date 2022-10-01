@@ -1,0 +1,12 @@
+{
+    "server": {
+        "port": 8080
+    },
+    "database": {
+        "dialect": "postgres",
+        "database": "myapp",
+        "username": "myname",
+        "host": "localhost",
+        "password": "12345678"
+    }
+}
