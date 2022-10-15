@@ -13,7 +13,8 @@ async function hashToken(token) {
  
 async function compareToken(token, hash) {
     const result = await bcrypt.compare(token, hash)
-    return result;
+    
+    return result
 }
 
 
